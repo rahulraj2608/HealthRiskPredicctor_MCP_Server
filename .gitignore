@@ -1,0 +1,73 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# IDEs and editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+
+*.log
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Secrets / credentials
+
+*.pem
+*.key
+credentials.json
+service-account.json
+secrets.json
